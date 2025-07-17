@@ -1,0 +1,169 @@
+/* Existing styles stay the same, just add below or adjust as needed */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+body.light-mode {
+    background-color: #fff0f7;
+    color: #333;
+  }
+  
+  body.dark-mode {
+    background-color: #1f1f2e;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode .right-panel {
+    background: linear-gradient(120deg, #2a2a3b, #3a2b4f);
+  }
+.left-panel{
+    flex: 1;
+    position: relative;
+    background-color: #f7f1f9;
+} 
+
+.right-panel {
+    flex: 1;
+    background: linear-gradient(120deg, #fff0f5, #f9ebff);
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+button {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #555;
+}
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.95;
+}
+
+.brand {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #8e44ad;
+}
+
+.right-panel {
+    flex: 1;
+    background: linear-gradient(120deg, #fff0f5, #f9ebff);
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+.nav-links li.active {
+    color: #8e44ad;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.intro small {
+    color: #a0a0a0;
+    letter-spacing: 1px;
+}
+.intro p {
+    margin-bottom: 30px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.intro h1 {
+    margin: 20px 0;
+    font-size: 28px;
+    color: #333;
+}
+
+button:hover {
+    background-color: #6c3483;
+}
+  .toggle-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    color: #8e44ad;
+  }
+  
+  .cv-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #8e44ad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  .cv-button:hover {
+    background-color: #6c3483;
+  }
+  
+  .social-icons {
+    margin: 15px 0;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #8e44ad;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #6c3483;
+  }
+  
